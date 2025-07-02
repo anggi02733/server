@@ -3,8 +3,8 @@ const getProfile = (req, res) => {
         name: "Anggi Setiyawan",
         bio: "Mahasiswa Teknik Informatika yang fokus di web dan mobile development.",
         images: [
-                {id : 1, url: "http://localhost:5000/images/my_avatar.jpg"},
-                {id : 2, url: "http://localhost:5000/images/profile.jpg"},
+                {id : 1, url: "server.railway.internal/images/my_avatar.jpg"},
+                {id : 2, url: "server.railway.internal/images/profile.jpg"},
                 ],
         skills: ["JavaScript", "Node.js", "React", "Laravel"],
         email: "anggisetiyawan02733@email.com",
